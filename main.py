@@ -1,5 +1,6 @@
-from Counter import *
+from StopWatch import *
+time.sleep(0.1) # Wait for USB to become ready
 
-if __name__ == "__main__":
-    c = counter()
-    c.show()
+print("StopWatch Counter!")
+s = StopWatch()
+s.run()
